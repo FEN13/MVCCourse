@@ -1,0 +1,20 @@
+﻿@using PhotoGalery.DTOs
+@{
+    var user = ViewBag.User as Register;
+}
+<h1>Hello @user.FirstName @user.LastName!</h1>
+
+<p>
+    We just need to confirm that you are a friendly human and not an evil robot:
+    <a href="@Request.Url.Authority/activation/@ViewBag.Token">Confirm</a>    
+</p>
+
+<p>
+    Or enter code in the field that is open on site:<br/>
+    Validation code: <strong>@ViewBag.Token</strong>
+</p>
+
+<p>
+    Thanks,<br />
+    Amplify Team.
+</p>

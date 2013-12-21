@@ -1,0 +1,12 @@
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\PhotoGalery.Data.dll.config
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\PhotoGalery.Data.dll
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\PhotoGalery.Data.pdb
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\DevOne.Security.Cryptography.BCrypt.dll
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\EntityFramework.dll
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\ExifReader.dll
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\Faker.dll
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\ExifReader.pdb
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\EntityFramework.xml
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\obj\Debug\PhotoGalery.Data.csprojResolveAssemblyReference.cache
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\obj\Debug\PhotoGalery.Data.dll
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\PhotoGalary.Data\obj\Debug\PhotoGalery.Data.pdb

@@ -1,0 +1,310 @@
+﻿body
+{
+    background-color: #414040;
+    overflow-y: scroll;
+}
+
+header, footer, nav, section
+{
+    display: block;
+    color: #ffffff;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset
+{
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea
+{
+    min-height: 75px;
+}
+
+.editor-label
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field
+{
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #f00;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+.navbar
+{
+    overflow: hidden;
+    background: #414040;
+}
+
+    .navbar > .container
+    {
+        position: relative;
+    }
+
+        .navbar > .container .navbar-brand
+        {
+            padding: 0;
+            padding-top: 9px;
+            padding-right: 10px;
+        }
+
+.curve
+{
+    float: right;
+    margin: 0 -30px 0;
+    padding: 0 50px 0 55px;
+    height: 53px;
+    position: relative;
+}
+
+.curve-text-container
+{
+    margin-top: 8px;
+    padding-right: 10px;
+}
+
+    .curve-text-container span
+    {
+        font-size: 12px;
+        font-weight: bold;
+        color: #333232;
+    }
+
+.btn-logout
+{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    margin-top: 13px;
+}
+
+    .btn-logout:hover
+    {
+        color: white;
+    }
+
+@media (min-width: 768px)
+{
+    .container
+    {
+        max-width: 940px;
+    }
+}
+
+.logged-in-as
+{
+    color: white !important;
+}
+
+    .logged-in-as > a
+    {
+        color: white !important;
+    }
+
+.splash
+{
+    text-align: center;
+    margin: 10% 0 0 0;
+}
+
+    .splash .message
+    {
+        font-size: 5em;
+        line-height: 1.5em;
+        -webkit-text-shadow: rgba(255, 255, 255, 0.5) 0 0 15px;
+        -ms-text-shadow: rgba(255, 255, 255, 0.5) 0 0 15px;
+        text-shadow: rgba(255, 255, 255, 0.5) 0 0 15px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .splash .icon-spinner
+    {
+        text-align: center;
+        display: inline-block;
+        font-size: 5em;
+        margin-top: 50px;
+        color: #ffffff;
+    }
+
+.signin-footer
+{
+    border-top: 1px solid #dddddd !important;
+}
+
+.forgot-password-link
+{
+    padding-right: 50px;
+}
+
+.btn-dark
+{
+    color: white;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    background: #414040;
+    -moz-min-width: 115px;
+    -ms-min-width: 115px;
+    -o-min-width: 115px;
+    -webkit-min-width: 115px;
+    min-width: 115px;
+}
+
+.btn-blue
+{
+    color: white;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    background: #0659a7;
+    -moz-min-width: 150px;
+    -ms-min-width: 150px;
+    -o-min-width: 150px;
+    -webkit-min-width: 150px;
+    min-width: 150px;
+}
+
+.controls
+{
+    line-height: 45px;
+}
+
+h1
+{
+    color: #ffffff;
+}
+
+#btnsearch
+{
+    padding: 9px 12px !important;
+}
+
+.album
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: #ffffff solid 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    min-height: 170px;
+}
+
+    .album a
+    {
+        border: transparent;
+        margin-bottom: 0;
+    }
+
+    .album p, .album-image p
+    {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .album > .thumbnail
+    {
+        background-color: transparent;
+    }
+
+.control-panel
+{
+    margin-bottom: 20px;
+}
+
+#imgpreview
+{
+    width: 100%;
+}
+
+.album-image
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: #ffffff solid 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    min-height: 270px;
+}
+
+    .album-image img
+    {
+        margin-left: 20%;
+        cursor: pointer;
+    }
+
+    .album-image > div.img-container
+    {
+        min-height: 150px;
+        padding-top: 20px;
+    }
+    .album-image span {
+        font-size: 10pt;
+    }
+
+i
+{
+    cursor: pointer;
+}
+
+.photo-info span
+{
+    color: #ffffff;
+}
+
+.default-font
+{
+    color: #ffffff;
+    font-size: 10pt;
+}
+.error {
+    border: 1px solid #ff0000;
+    color: #333232
+}
+.filter-btn {
+    width: 150px;
+}

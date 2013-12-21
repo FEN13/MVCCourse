@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoGalery.Web", "PhotoGalary\PhotoGalery.Web.csproj", "{D0FB7B6A-B07F-4789-AB06-7C0EFED78140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExifReader", "ExifReader\ExifReader.csproj", "{D9C8FD3F-FE70-4EAD-AFDA-3E2754597D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoGalery.Data", "PhotoGalary.Data\PhotoGalery.Data.csproj", "{E017A3F8-34DE-47F5-9DBC-AB1B9AAB8CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoGalery.Services", "PhotoGalery.Services\PhotoGalery.Services.csproj", "{7A8EE261-8E86-456B-A190-80382A4A1362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoGalery.DTOs", "PhotoGalery.DTO\PhotoGalery.DTOs.csproj", "{5381528A-BE6D-47E0-8E73-8B5C8FF35641}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0FB7B6A-B07F-4789-AB06-7C0EFED78140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FB7B6A-B07F-4789-AB06-7C0EFED78140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FB7B6A-B07F-4789-AB06-7C0EFED78140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FB7B6A-B07F-4789-AB06-7C0EFED78140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C8FD3F-FE70-4EAD-AFDA-3E2754597D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C8FD3F-FE70-4EAD-AFDA-3E2754597D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C8FD3F-FE70-4EAD-AFDA-3E2754597D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C8FD3F-FE70-4EAD-AFDA-3E2754597D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E017A3F8-34DE-47F5-9DBC-AB1B9AAB8CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E017A3F8-34DE-47F5-9DBC-AB1B9AAB8CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E017A3F8-34DE-47F5-9DBC-AB1B9AAB8CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E017A3F8-34DE-47F5-9DBC-AB1B9AAB8CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8EE261-8E86-456B-A190-80382A4A1362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8EE261-8E86-456B-A190-80382A4A1362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8EE261-8E86-456B-A190-80382A4A1362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8EE261-8E86-456B-A190-80382A4A1362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5381528A-BE6D-47E0-8E73-8B5C8FF35641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5381528A-BE6D-47E0-8E73-8B5C8FF35641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5381528A-BE6D-47E0-8E73-8B5C8FF35641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5381528A-BE6D-47E0-8E73-8B5C8FF35641}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

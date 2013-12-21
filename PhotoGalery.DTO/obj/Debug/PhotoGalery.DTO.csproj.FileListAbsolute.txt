@@ -1,0 +1,5 @@
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalery.DTO\bin\Debug\PhotoGalery.DTO.dll
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalery.DTO\bin\Debug\PhotoGalery.DTO.pdb
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalery.DTO\obj\Debug\PhotoGalery.DTO.csprojResolveAssemblyReference.cache
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalery.DTO\obj\Debug\PhotoGalery.DTO.dll
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalery.DTO\obj\Debug\PhotoGalery.DTO.pdb

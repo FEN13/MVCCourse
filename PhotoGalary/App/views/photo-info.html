@@ -1,0 +1,30 @@
+﻿<div class="row control-panel">
+    <div class="col-lg-8">
+        <button class="btn btn-default" data-bind="click: updatePhoto" title="Add Photo"><i class="fa fa-save"></i></button>
+        <a data-bind="attr: { href: albumLink }" class="btn btn-default" title="Back to album"><i class="fa fa-list"></i></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-9">
+        <img data-bind="attr: { src: imgLink, alt: name }" class="img-responsive" />   
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-9 photo-info">
+        <span>Uploaded on: <span data-bind="text: addDate"></span></span><br/>
+        <span>Name: <input type="text" id="name" required="required" data-bind="value: name" class="form-control"/></span>
+        <span>Diafragm: <input type="text" id="diafragm" data-bind="value: diafragm" class="form-control" maxlength="3"/></span>
+        <span>Iso: <input type="text" id="iso" data-bind="value: iso" class="form-control" maxlength="3"/></span>
+        <span>Focus Distance: <input type="text" id="fdist" data-bind="value: focusDist" class="form-control" maxlength="4"/></span>
+        <span>Is flash used: <input type="checkbox" data-bind="checked: flash"/></span><br/>
+        <span>Is album cover: <input type="checkbox" data-bind="checked: isCover"/></span><br/>
+        <span>Location: <input type="text" data-bind="value: location" class="form-control" maxlength="60"/></span>
+        <span>Shutter speed: <input type="text" id="shutter" data-bind="value: shutter" class="form-control" maxlength="5"/></span>
+        <span>Camera Manufacturer: <select id="manufs" class="form-control" data-bind="options: deviceManufacturers, value: deviceManufacturer, optionsText: 'name',optionsCaption:'Chose manufacturer...'" tabindex="-1" style="max-height: 50px;"></select> </span>
+        <span>Camera model:  <select id="models" class="form-control" data-bind="options: selectedModels, value: deviceModel, optionsText: 'name', optionsValue:'id',optionsCaption:'Chose model...'" tabindex="-1"style="max-height: 200px;"></select></span>
+        <span>Views: <span data-bind="text: views"></span></span><br/>
+        <span>Likes: <span data-bind="text: likes"></span></span><br/>
+        <span>Description:</span><br/>
+        <textarea data-bind="value:description" class="form-control" maxlength="254"/>
+    </div>
+</div>

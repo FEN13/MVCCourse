@@ -1,0 +1,9 @@
+c:\users\kkarpenko\documents\visual studio 2010\Projects\PhotoGalary\ExifReader\bin\Debug\ExifReader.dll
+c:\users\kkarpenko\documents\visual studio 2010\Projects\PhotoGalary\ExifReader\bin\Debug\ExifReader.pdb
+c:\users\kkarpenko\documents\visual studio 2010\Projects\PhotoGalary\ExifReader\obj\Debug\ExifReader.dll
+c:\users\kkarpenko\documents\visual studio 2010\Projects\PhotoGalary\ExifReader\obj\Debug\ExifReader.pdb
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\ExifReader\bin\Debug\ExifReader.dll
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\ExifReader\bin\Debug\ExifReader.pdb
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\ExifReader\obj\Debug\ExifReader.dll
+C:\Users\kkarpenko\Documents\Visual Studio 2012\Projects\PhotoGalary\ExifReader\obj\Debug\ExifReader.pdb
+C:\Users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\ExifReader\obj\Debug\ExifReader.csprojResolveAssemblyReference.cache

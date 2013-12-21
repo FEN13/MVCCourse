@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Galery</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script type="text/javascript">
+        var AppRootPath = '@Url.Content("~").TrimEnd('/')'
+    </script>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div id="applicationHost">
+        <div class="splash">
+            <div class="message">
+                Photo Galery
+            </div>
+            <i class="fa fa-spinner fa-4x fa-spin active" style="color: #ffffff"></i>
+        </div>
+    </div>
+    @Scripts.Render("~/scripts/vendor")
+    <script src="~/Scripts/require.js" data-main="@Url.Content("~/App/main")"></script>
+</body>
+</html>

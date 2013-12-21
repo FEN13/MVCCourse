@@ -1,0 +1,8 @@
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\PhotoGalary.Data.dll.config
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\PhotoGalary.Data.dll
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\PhotoGalary.Data.pdb
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\DevOne.Security.Cryptography.BCrypt.dll
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\EntityFramework.dll
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalary.Data\bin\Debug\EntityFramework.xml
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalary.Data\obj\Debug\PhotoGalary.Data.dll
+c:\users\kkarpenko\documents\visual studio 2012\Projects\PhotoGalary\PhotoGalary.Data\obj\Debug\PhotoGalary.Data.pdb

@@ -1,0 +1,31 @@
+﻿<header>
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img data-bind="attr: {src:logourl}" width="200" height="50" /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" data-bind="if: isActive">
+                    <li>
+                        <a href="/user-list">Users</a>
+                    </li>
+                </ul>
+                <div class="curve" data-bind="if: showLogedInBlock">
+                <a class="btn navbar-btn btn-logout pull-right" href="/" data-bind="click: logout">Sign Out</a>
+                <div class="pull-right curve-text-container">
+                    <span class="caption logged-in-as">Logged in as:
+                        <br />
+                        <a href="/" data-bind="text: userFullName">test</a></span>
+                    <br />
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</header>

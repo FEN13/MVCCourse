@@ -1,0 +1,31 @@
+﻿<div class="row">
+    <div class="col-lg-9">
+        <form role="search" id="searchForm">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" data-bind="value:query" name="srch-term" id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" data-bind="click: search" id="btnsearch"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4"><button data-bind="click: advancedSearch" class="btn btn-default">Advanced Search</button></div>
+            </div>
+        </form>
+    </div>
+    <div class="col-lg-2 pull-right">
+        <button class="btn btn-default" title="Create album" data-bind="click: createAlbum, enable: limitReached"><i class="fa fa-plus"></i></button>
+    </div>
+    <div class="clearfix"></div>
+    <div data-bind="foreach: albumlist">
+        <div class="col-sm-6 col-md-3 ">
+            <div class="album">
+                <a data-bind="attr: { href: link }" class="thumbnail">
+                    <img data-bind="attr: { src: imgLink, alt: name }" />
+                    <p data-bind="text: name"></p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

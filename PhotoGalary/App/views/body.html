@@ -1,0 +1,23 @@
+﻿<div>
+    <div data-bind="compose: 'header.html'"></div>
+    <div class="container" data-bind="router: { cacheViews: true }">
+        <div class="col-lg-2 pull-right">
+            <button class="btn btn-default" type="button" data-bind="click: createAlbum" title="Create album"><i class="fa fa-plus"></i>Create Album</button>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="pull-right">
+            <p data-bind="html: footertext">
+            </p>
+        </div>
+        <div class="pull-left">
+            <ul id="social" class="list-unstyled list-inline">
+                <li><a href="http://facebook.com"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li><a href="http://twitter.com"><i class="fa fa-twitter fa-2x"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</div>

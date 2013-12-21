@@ -1,0 +1,30 @@
+﻿<form data-bind="submit: register">
+    <div class="col-sm-6 col-sm-offset-3">
+        <h1>Join Photo Galary</h1>
+
+        <div class="row form-group">
+            <div class="col-sm-6">
+                <input type="text" class="form-control input-lg" placeholder="First Name" autofocus required data-bind="value: firstName" maxlength="128" />
+            </div>
+            <div class="col-sm-6">
+                <input type="text" class="form-control input-lg" placeholder="Last Name" data-bind="value: lastName" maxlength="128" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input type="email" class="form-control input-lg" placeholder="Email Address" required data-bind="value: email" maxlength="64"/>
+        </div>
+
+        <div class="form-group">
+            <input type="password" class="form-control input-lg" placeholder="Password" required data-bind="value: password" maxlength="64"/>
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="creditcard" class="form-control input-lg" placeholder="Credit card: 0000-0000-0000-0000" data-bind="value: creditCard" maxlength="16"/>
+        </div>
+
+        <div class="form-group controls">
+            <button type="submit" class="btn btn-lg btn-primary btn-block">Create</button>
+        </div>
+    </div>
+</form>

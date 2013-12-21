@@ -1,0 +1,33 @@
+﻿<form data-bind="submit: login" class="form-horizontal">
+    <div class="col-sm-6 col-sm-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Sign In</h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Email:</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control input-sm" id="email" placeholder="Email Address" autofocus required data-bind="value: email" maxlength="64" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label">Password:</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control input-sm" id="password" placeholder="Password" required data-bind="value: password" maxlength="64" />
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer signin-footer">
+                <div class="pull-right">
+                    <a href="/registration">Register</a><br/>
+                    <a href="/forgot_password" class="forgot-password-link">Forgot your password?</a>
+                    <button type="submit" class="btn btn-primary btn-blue" data-bind="attr: { disabled: isDisabled }">Sign in <i class="icon-spin icon-spinner" data-bind="visible: isLogingIn"></i></button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+</form>

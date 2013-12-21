@@ -1,0 +1,71 @@
+﻿<div class="row">
+    <div class="col-lg-9">
+        <form role="search" id="searchForm">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" data-bind="value: query" name="srch-term" id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" data-bind="click: search" id="btnsearch"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4"><button data-bind="click: advancedSearch" class="btn btn-default">Advanced Search</button></div>
+            </div>
+        </form>
+    </div>
+    <div class="col-lg-2 pull-right">
+        <a href="/home" class="btn btn-default" title="Manage albums"><i class="fa fa-list"></i></a>
+    </div>
+</div>
+<div class="row" data-bind="visible: showFilters">
+    <div class="col-lg-4">
+        <span class="default-font">Photo Name:
+            <input type="text" class="form-control" data-bind="value:name" placeholder="Enter photo name.." /></span>
+        <span class="default-font">Photo Date:
+            <input type="text" class="form-control" id="fdate" data-bind="value: addDate" placeholder="Enter photo date.." /></span>
+        <span class="default-font">Photo Location: 
+            <input type="text" class="form-control" data-bind="value: location" placeholder="Enter photo location.." /></span>
+    </div>
+    <div class="col-lg-4">
+        <span class="default-font">Camera Manufacturer:
+            <select id="manufs" class="form-control" data-bind="options: deviceManufacturers, value: deviceManufacturer, optionsText: 'name', optionsCaption: 'Chose manufacturer...'" tabindex="-1" style="max-height: 50px;"></select>
+        </span>
+        <span class="default-font">Camera model: 
+            <select id="models" class="form-control" data-bind="options: selectedModels, value: deviceModel, optionsText: 'name', optionsValue: 'id', optionsCaption: 'Chose model...'" tabindex="-1" style="max-height: 200px;"></select></span>
+        <span class="default-font">Focus Distance: 
+            <input type="text" class="form-control"  data-bind="value: focusDist" placeholder="Enter focus distance.." /></span>
+    </div>
+    <div class="col-lg-4">
+        <span class="default-font">Diafragm:
+            <input type="text" class="form-control" data-bind="value: diafragm" placeholder="Enter diafragm value.." /></span>
+        <span class="default-font">Shutter Speed:
+            <input type="text" class="form-control" data-bind="value: shutter" placeholder="Enter shutter speed value.." /></span>
+        <span class="default-font">Iso: 
+            <input type="text" class="form-control" data-bind="value: iso" placeholder="Enter ISO value..." /></span><br />
+        <input type="checkbox" data-bind="checked: flash"/><span class="default-font"> Flash Enabled </span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <button class="btn btn-default filter-btn pull-right" data-bind="click: advancedFilter">Filter</button>
+    </div>
+</div>
+<!-- ko if: loadPhoto -->
+<div data-bind="foreach: albumPhotos">
+    <div class="col-sm-6 col-md-4 ">
+        <div class="album-image">
+            <div class="img-container">
+                <img data-bind="attr: { src: imgLink, alt: name }, click: $parent.fullSize" class="thumbnail" />
+            </div>
+            <a data-bind="attr: { href: link }">
+                <p data-bind="text: name"></p>
+            </a>
+            <span>Description: <span data-bind="text: description"></span><a data-bind="    attr: { href: link }">Edit</a></span><br />
+            <span>Uploaded on:<span data-bind="text: addDate"></span></span><br />
+            <span>Likes: <i class="fa fa-thumbs-o-down" data-bind="click: $parent.unlikePhoto"></i><span data-bind="    text: likes"></span><i class="fa fa-thumbs-o-up" data-bind="    click: $parent.likePhoto"></i></span>
+        </div>
+    </div>
+</div>
+<!-- /ko -->
+<h3 id="nodata" style="color: #ffffff">No photo found</h3>
